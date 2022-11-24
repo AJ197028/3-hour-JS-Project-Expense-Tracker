@@ -1,0 +1,23 @@
+<html>
+    <body> 
+        <form  onsubmit="saveToLocalStorage(event)">
+            <label> Choose Expense Amount:</label>
+            <input name="amount"  id='amountId' type="number"   required/>
+            <label>Choose Description:</label>
+            <input ame="description" id='descriptionId' type=" text" n  required/>
+            <label>Choose Category: </label>
+            <select id="catId" name="cat">
+                <option value="movies">Movies</option>
+                <option value="fuel">fuel</option>
+                <option value="Brand">Brand</option>
+            </select>
+            <button> Submit </button>
+        </form>
+        <ul id='listOfExpenses'></ul>
+        <script src="main.js">
+        </script>
+
+
+
+    </body>
+</html>
